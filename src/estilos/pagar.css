@@ -1,0 +1,95 @@
+.pagar-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.usuario-info, .carrito-info, .acciones {
+  margin-bottom: 2rem;
+}
+
+.usuario-info h2 {
+  margin: 0 0 0.5rem;
+}
+
+.usuario-info p {
+  margin: 0 0 1rem;
+}
+
+.pagar-container .btn {
+  padding: 0.5rem 1rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.pagar-container .btn:hover {
+  background-color: #444;
+}
+
+.productos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.producto-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.producto-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.producto-detalle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.producto-nombre {
+  font-weight: 500;
+  color: #28a745;
+}
+
+.producto-cantidad {
+  color: #555;
+}
+
+.producto-precio {
+  font-weight: bold;
+  color: #222;
+}
+
+.total {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  background: #f0f0f0;
+}
+
+.acciones {
+  display: flex;
+  gap: 1rem;
+}
+
+.token {
+  background: #f0f0f0;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 10px 0;
+  font-size: 12px;
+  word-break: break-all;
+}
+
