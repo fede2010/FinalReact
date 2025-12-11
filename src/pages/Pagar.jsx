@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useAuthContext } from '../context/AuthContext';
 import { useCartContext } from '../context/CartContext';
-import "../estilos/Pagar.css";
+import "../estilos/pagar.css";
 
 export default function Pagar() {
   const { usuario, cerrarSesion } = useAuthContext();

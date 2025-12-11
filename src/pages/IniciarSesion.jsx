@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuthContext } from "../context/AuthContext";
-import "../estilos/IniciarSesion.css";
+import "../estilos/iniciar-sesion.css";
 
 export default function IniciarSesion() {
   const { iniciarSesion } = useAuthContext();
